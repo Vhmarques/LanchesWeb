@@ -5,6 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20210808042246_PopularTabelas.cs" />
+    <Compile Remove="Migrations\20210808042246_PopularTabelas.Designer.cs" />
+    <Compile Remove="Migrations\20210809233426_PopularTabelas.cs" />
+    <Compile Remove="Migrations\20210809233426_PopularTabelas.Designer.cs" />
+    <Compile Remove="Migrations\20210809233544_PopularTabelas.cs" />
+    <Compile Remove="Migrations\20210809233544_PopularTabelas.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
