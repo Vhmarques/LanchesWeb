@@ -1,0 +1,19 @@
+﻿@model LancheListViewModel
+
+<div><h2> @Model.CategoriaAtual</h2></div>
+
+@foreach (var lanche in Model.Lanches)
+{   
+    <div class="col-lg-4" "col-md-4" "col-sm-4">
+        <div class="img-thumbnail">
+            <img src="@lanche.ImageUrl" class="rounded" alt=""/>
+        </div>
+        <div class="figure-caption">
+            <h3 class="text-right"> @lanche.Preco.ToString("c")</h3>
+            <h3>
+                @lanche.Nome
+            </h3>
+            <p>@lanche.DescricaoCurta<p>
+        </div>                        
+    </div>
+}

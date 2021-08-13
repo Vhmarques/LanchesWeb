@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LanchesWeb.Repositories
 {
-    interface ICategoriaRepository
+    public interface ICategoriaRepository
     {
         IEnumerable<Categoria> Categorias { get; }
     }

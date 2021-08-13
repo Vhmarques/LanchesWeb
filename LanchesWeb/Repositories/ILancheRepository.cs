@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LanchesWeb.Repositories
 {
-    interface ILancheRepository
+    public interface ILancheRepository
     {
         IEnumerable<Lanche> Lanches { get; }
         IEnumerable<Lanche> LanchesPreferidos { get; }
